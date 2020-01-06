@@ -6,7 +6,7 @@
 /*   By: yltardif <yltardif@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/15 15:54:40 by yltardif          #+#    #+#             */
-/*   Updated: 2020/01/04 17:31:23 by yltardif         ###   ########.fr       */
+/*   Updated: 2020/01/06 15:51:33 by yltardif         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,4 +28,3 @@ void	ft_putnbr_fd(int nb, int fd)
 		ft_putnbr_fd(n / 10, fd);
 	ft_putchar_fd((n % 10) + 48, fd);
 }
-

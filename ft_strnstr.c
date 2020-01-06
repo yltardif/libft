@@ -6,7 +6,7 @@
 /*   By: yltardif <yltardif@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/02 16:05:08 by yltardif          #+#    #+#             */
-/*   Updated: 2020/01/04 18:08:49 by yltardif         ###   ########.fr       */
+/*   Updated: 2020/01/06 15:54:33 by yltardif         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ char		*ft_strnstr(const char *haystack, const char *needle, size_t len)
 		j = 0;
 		while (haystack[i + j] && haystack[i + j] == needle[j] &&
 			i + j < len && needle[j] != '\0')
-				j++;
+			j++;
 		if (j == ft_strlen(needle))
 			return ((char *)haystack + i);
 		i++;

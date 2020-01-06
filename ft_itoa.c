@@ -6,7 +6,7 @@
 /*   By: yltardif <yltardif@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/05 18:34:19 by yltardif          #+#    #+#             */
-/*   Updated: 2020/01/06 15:16:33 by yltardif         ###   ########.fr       */
+/*   Updated: 2020/01/06 15:42:11 by yltardif         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,10 @@
 
 char	*ft_itoa(int n)
 {
-	char *str;
-	unsigned int nb;
-	int len;
-	int sign;
+	char			*str;
+	unsigned int	nb;
+	int				len;
+	int				sign;
 
 	sign = n < 0 ? 1 : 0;
 	nb = n < 0 ? n * -1 : n;

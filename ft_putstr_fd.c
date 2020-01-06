@@ -6,7 +6,7 @@
 /*   By: yltardif <yltardif@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/03 13:13:15 by yltardif          #+#    #+#             */
-/*   Updated: 2020/01/04 17:31:50 by yltardif         ###   ########.fr       */
+/*   Updated: 2020/01/06 15:49:41 by yltardif         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	ft_putstr_fd(char *s, int fd)
 	int i;
 
 	i = 0;
-	while(s[i])
+	while (s[i])
 	{
 		ft_putchar_fd(s[i], fd);
 		i++;

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yltardif <yltardif@student.42>             +#+  +:+       +#+        */
+/*   By: yltardif <yltardif@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/17 16:37:58 by yltardif          #+#    #+#             */
-/*   Updated: 2020/01/05 20:04:30 by yltardif         ###   ########.fr       */
+/*   Updated: 2020/01/06 15:51:49 by yltardif         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 void	*ft_memset(void *pointer, int value, size_t count)
 {
-	size_t i;
-	unsigned char *tmp;
+	size_t			i;
+	unsigned char	*tmp;
 
 	i = 0;
 	tmp = (unsigned char *)pointer;

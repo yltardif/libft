@@ -6,7 +6,7 @@
 /*   By: yltardif <yltardif@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/22 14:52:26 by yltardif          #+#    #+#             */
-/*   Updated: 2019/12/02 17:39:55 by yltardif         ###   ########.fr       */
+/*   Updated: 2020/01/06 15:42:42 by yltardif         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 void		*ft_memchr(const void *s, int c, size_t n)
 {
-	size_t		i;
-	unsigned char *str;
-	unsigned char j;
+	size_t			i;
+	unsigned char	*str;
+	unsigned char	j;
 
 	i = 0;
 	str = (unsigned char *)s;
@@ -25,7 +25,7 @@ void		*ft_memchr(const void *s, int c, size_t n)
 	{
 		if (str[i] == j)
 			return ((void*)str + i);
-			i++;
+		i++;
 	}
 	return (NULL);
 }
